@@ -1,0 +1,58 @@
+
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+
+  input[type="text"],
+  input[type="password"],
+  input[type="email"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+
+  input[type="submit"],
+  input[type="reset"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+  }
+
+  input[type="submit"]:hover,
+  input[type="reset"]:hover {
+    background-color: #45a049;
+  }
+  /* Estilos para los mensajes de error */
+  .error {
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+
+  /* Estilos para los mensajes de éxito */
+  .exito {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  header img {
+    height: 150px; /* Ajusta la altura según tus necesidades */
+    margin-right: 150px; /* Ajusta el margen derecho para separar el logo del título */
+  }
